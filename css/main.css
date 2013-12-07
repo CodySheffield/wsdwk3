@@ -1,12 +1,11 @@
 /*---- Begin Body ----*/
 body {
-	width: 100%;
+	width: 80%;
 	max-width: 960px;
 	margin: 0px auto;
 	padding: 0;
-	font: 16px/1.5 'Gruppo', Verdana, Geneva, sans-serif;
+	font: 100%/1.0 'Gruppo', Verdana, Geneva, sans-serif;
 	color: #fff;
-	line-height: 100%;
 	background: #404044 url("../images/bg.jpg");
 }
 @font-face {
@@ -24,8 +23,7 @@ a:link, a:visited {
 /*---- Begin Header ----*/
 .logo {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	text-decoration: none;
 	height: 100%;
 	width: 100%;
@@ -50,7 +48,7 @@ a:link, a:visited {
 }
 .navbar li a {
 	font-family: "EVE Alpha";
-	font-size: 12px;
+	font-size: 0.75em; /*12px*/
 	font-weight: bold;
 	display: block;
 	text-align: center;
