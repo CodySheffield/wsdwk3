@@ -153,21 +153,44 @@ a:link, a:visited {
 }
 /*---- End Footer ----*/
 /*---- Media Queries ----*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
+body {
+	width: 90%;
+}
+h2 {
+	font-size: large;
+}
+h4 {
+	font-size: small;
+}
 #story img {
-	height: 150px;
-	width: 150px;
+	height: 125px;
+	width: 125px;
 }
 }
 
 @media screen and (max-width: 480px) {
+body {
+	width: 95%;
+}
 #story img {
 	height: 100px;
 	width: 100px;
 }
+p {
+	font-size: small;	
+}
+#corporation p {
+	column-count: 1;
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+}
 }
 
 @media screen and (max-width: 400px) { /* browser window may not go this narrow, change it to 400px wide so you can see it work */
+.logo {
+	display: none;
+}
 #story img {
 	height: 75px;
 	width: 75px;
