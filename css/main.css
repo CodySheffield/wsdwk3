@@ -149,5 +149,27 @@ a:link, a:visited {
 	position: relative;
     text-align: center;
 	font-size: small;
+	width: 100%;
 }
 /*---- End Footer ----*/
+/*---- Media Queries ----*/
+@media screen and (max-width: 768px) {
+#story img {
+	height: 150px;
+	width: 150px;
+}
+}
+
+@media screen and (max-width: 480px) {
+#story img {
+	height: 100px;
+	width: 100px;
+}
+}
+
+@media screen and (max-width: 400px) { /* browser window may not go this narrow, change it to 400px wide so you can see it work */
+#story img {
+	height: 75px;
+	width: 75px;
+}
+}
