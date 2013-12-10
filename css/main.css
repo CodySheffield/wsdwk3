@@ -99,6 +99,8 @@ a:link, a:visited {
 #story img {
 	float: left;
 	border: 1px solid #999;
+	height: 100%;
+	width: 100%;
 	max-height: 150px;
 	max-width: 150px;
 	margin-top: 5px;
@@ -128,31 +130,24 @@ a:link, a:visited {
 	-webkit-column-count: 2;
 	-webkit-column-gap: 20px;
 }
-#gallery {
-	text-align: center; /* !-Cannot figure out how to center the gallery on the page-! */
+.gallery {	
+	max-width: 960px;
+	text-align: center;	
 }
-#gallery ul {
-	list-style-type: none;
-	width: 100%;
-	overflow: hidden;
-	padding: 5px;
-}
-#gallery li {
+.feature {
+	max-width: 310px;
 	float: left;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-}
-#gallery a {
 	border: 5px solid #999;
-	display: block;
-	outline: 0;
+}
+.feature img {
+	max-width: 100%;
 }
 /*--- End Main Content ---*/
 /*---- Begin Footer ----*/
 .disclaimer {
-	text-align: center;
-	font-side: small;
+	float: left;
+	position: relative;
+    text-align: center;
+	font-size: small;
 }
 /*---- End Footer ----*/
