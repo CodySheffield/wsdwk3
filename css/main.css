@@ -36,9 +36,10 @@ a:link, a:visited {
 }
 .navbar {
 	display: inline-block;
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0;
-	width: 100%;
+	width: 90%;
 	max-width: 710px; /* !-Collapses when zooming out-! */
 }
 .navbar li {
@@ -130,7 +131,9 @@ a:link, a:visited {
 	-webkit-column-gap: 20px;
 }
 .gallery {	
-	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 	text-align: center;	
 }
 .feature {
